@@ -1,0 +1,55 @@
+/* === des/lap === */
+
+@media only screen and (min-width: 1240px) {
+    .main-content-header {
+        width: 100%;
+    }
+    .main-content-header h1 {
+        font-size: 200%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .main-content-header {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .main-content-header h1 {
+        font-size: 200%;
+        padding: 0 2%;
+    }
+}
+
+
+/* ==== ipad === */
+
+@media only screen and (max-width: 998px) {
+    .main-content-header h1 {
+        font-size: 200%;
+    }
+}
+
+
+/* === ipad ==== */
+
+@media only screen and (max-width: 768px) {
+    .main-content-header h1 {
+        font-size: 180%;
+    }
+}
+
+
+/* === mobile === */
+
+@media only screen and (max-width: 480px) {
+    .btn-full {
+        margin-bottom: 20px;
+    }
+    .main-content-header h1 {
+        font-size: 140%;
+    }
+    nav ul li a:hover {
+        border-bottom: none;
+    }
+}

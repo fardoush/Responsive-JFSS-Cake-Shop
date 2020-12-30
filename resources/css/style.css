@@ -1,0 +1,469 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #ffffff;
+    font-family: 'Flamenco', cursive;
+}
+
+h2 {
+    color: #db6400;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header {
+    background: linear-gradient(#0005, #0005), url(../img/cake2.jpg);
+    background-size: cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav-bg {
+    background: #0009;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+nav ul li .nav-link {
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    padding: 8px 0;
+    color: #ffffff;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #db6400;
+    color: #db6400;
+}
+
+.main-content-heade {
+    width: 1180px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content-header h1 {
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    /* 20*240/100=42px */
+}
+
+.main-content-header .colorChange {
+    animation: colorchangecoffee 1s infinite;
+    font-weight: 900;
+}
+
+@keyframes colorchangecoffee {
+    0% {
+        color: #a20a0a;
+    }
+    25% {
+        color: #583d72;
+    }
+    50% {
+        color: crimson;
+    }
+    100% {
+        color: #db6400;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full {
+    background-color: transparent;
+    color: #db6400;
+    font-weight: 900;
+    margin-right: 15px;
+    border: 1px solid #db6400;
+    position: relative;
+    left: 2%;
+}
+
+.btn-full:hover {
+    background: #db6400;
+    color: #fff;
+    border: none;
+}
+
+
+/* ==== about us =====
+ */
+
+.aboutUs-section h2 {
+    padding-top: 80px;
+    color: #db6400;
+}
+
+.about-cont h3 {
+    padding-top: 40px;
+    color: #db6400;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 200px;
+        top: 0px;
+    }
+}
+
+.about-cont p {
+    color: #495464;
+}
+
+.about-cont a {
+    color: #db6400;
+}
+
+
+/* ==== social ==== */
+
+.about-social {}
+
+.fa-facebook {
+    margin-left: -10px;
+}
+
+.about-social i {
+    color: #db6400;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #db6400;
+    padding: 13px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.about-social i:hover {
+    transition: 0.10s;
+    background: #db6400;
+    color: #ffffff;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about-img img {
+    padding-top: 40px;
+    width: 50%;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.about-img2 img {
+    padding-top: 40px;
+    width: 50%;
+    height: 350px;
+}
+
+
+/* === chef === */
+
+h2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.chef-section .card {
+    border-radius: 8px;
+    border: none
+}
+
+.chef-section .card-image {
+    border-radius: 15px;
+}
+
+.chef-section .card-image img {
+    width: 100%;
+    height: 250px;
+}
+
+.chef-section h3 {
+    padding-top: 20px;
+    color: #db6400;
+    font-weight: 900;
+}
+
+.chef-section p {
+    color: #000;
+}
+
+.chef-section a {
+    color: #db6400;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px
+}
+
+
+/* ==== feature ==== */
+
+.feature-section h2 {
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+
+.menu {
+    padding-top: 30px;
+    margin-left: 10%;
+}
+
+.menu a {
+    padding-left: 20px;
+    text-transform: capitalize;
+    color: #db6400;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #111d5e;
+}
+
+.feature-section .card {
+    border: none;
+    background: none;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 150px;
+}
+
+.feature-cont h3 {
+    color: #db6400;
+}
+
+.feature-cont p {
+    width: 95%;
+    color: #495464;
+}
+
+.feature-cont a {
+    color: #db6400;
+    text-decoration: none;
+}
+
+.feature-col {
+    padding-top: 20px;
+}
+
+
+/* ==== menu & pricing ==== */
+
+.pricing h2 {
+    padding: 80px;
+    font-weight: 900;
+}
+
+.menu-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.menu-price h3 {
+    color: #db6400;
+    display: inline-block;
+}
+
+.menu-price p {
+    color: #000000;
+}
+
+.price p {
+    color: #db6400;
+}
+
+
+/* === contact us === */
+
+.contact-section h2 {
+    padding: 80px;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.contact-section .row {
+    margin-bottom: 150px;
+}
+
+label {
+    color: #db6400;
+}
+
+textarea {
+    border: 1px solid #b4ab9d;
+}
+
+.contact-section a {
+    background: transparent;
+    border: 2px solid #db6400;
+    color: #db6400;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.contact-section a:hover {
+    background: #db6400;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* ==== footer ==== */
+
+footer {
+    background: #080808;
+    height: 100%;
+    opacity: 1;
+}
+
+.footer-inner {
+    margin-bottom: 80px;
+}
+
+.footer-inner img {
+    margin-top: 50px;
+    width: 50%;
+    height: 100px;
+}
+
+.footer-inner a {
+    text-transform: uppercase;
+    color: #db6400;
+    text-decoration: none;
+}
+
+.shop-opening {
+    margin-top: 50px;
+}
+
+.shop-opening h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.shop-opening p {
+    color: #495464;
+}
+
+.shop-opening span {
+    color: #db6400;
+}
+
+.instgram h3 {
+    margin-top: 50px;
+}
+
+.instgram img {
+    width: 55px;
+    height: 55px;
+}
+
+.footer-twitter h3 {
+    margin-top: 50px;
+}
+
+.footer-twitter i {
+    color: #db6400;
+}
+
+.footer-twitter span {
+    color: #db6400;
+}
+
+
+/* ==== up icon====
+
+*/
+
+.up-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #db6400;
+    /* border: 1px solid #db6400; */
+}
+
+.up-icon i {
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 8px;
+    font-size: 30px;
+}
+
+
+/* ==== copy == */
+
+.copy {
+    background: #0c0c0c;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.copy p {
+    padding-top: 10px;
+}
+
+#myBtn {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #db6400;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background: #111d5e;
+}
